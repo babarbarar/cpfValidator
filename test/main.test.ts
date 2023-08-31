@@ -12,7 +12,7 @@ test("Should not continue when cpf is invalid", async function () {
 	const response = await axios.post("http://localhost:3090/checkout", input)
 	expect(response.status).toBe(422);
 	const output = response.data;
-	expect(output.message).toBe("Invalid cpf");
+	expect(output.message).toBe("Invalid cpf!");
 });
 
 test("Should continue when cpf is valid", async function () {
