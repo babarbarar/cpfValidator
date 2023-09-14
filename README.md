@@ -7,6 +7,6 @@ This project has git ignore :)
 Development obs:
 
 - I had to run `npm install axios --save` to get module axios to work;
-- To start the server I used `npx nodemonsrc/main.ts`;
+- To start the server I used `npx nodemon src/main.ts`;
 - To check if it is working you can use `curl http://localhost:3090/checkout`;
 - To run tests use `npx jest`
